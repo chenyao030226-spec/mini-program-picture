@@ -1,34 +1,38 @@
-# <p align="center">“What to eat today?” Mini-program logs</p>
-This is a log of the mini-program I created to figure out what to eat for three meals a day with my friends.
-## Why create this mini-program?
-The story begins during the summer of 2026…
-Can’t find any internships! So frustrating! Extremely annoying!
-A lazy little girl became a mindless fool as a result. She spent every day frantically submitting resumes to job-seeking apps, often exceeding the app’s limit on the number of submissions allowed per day.
-Every day is spent applying for jobs and going on interviews, over and over again.
-I started sending out resumes in May, and I’ve continued to do so until today. In total, I’ve gone through 3 interviews, all of which ended in failure. These jobs aren’t part of my career plan. I’m hesitant about each of them. I feel anxious whether I accept the offers or not.
-Actually, I have no idea what kind of position would be right for me. I’m not sure if my current thoughts are correct. Should I keep going with this path, or should I return to what’s essentially my “comfort zone”?
-Maybe I’m just not someone who likes to study. But then again, who really does like studying anyway?
-So I became listless all day long, and to make matters worse, I was also very unlucky.
-OMG!!
-Sure enough, one shouldn’t be too foolish or naive. Some rules are absolute and must not be broken. Other situations require flexible handling. And that’s how I entered into a month of miserable, frustrating experiences.
-Fortunately, I have a little smartie with me—hehe, Abibei.
-This agonizing life became better because of her presence.
-Over time, life in the dormitory becomes rather boring. She’s struggling with her thesis—it’s really frustrating for her. I’m trying to find a job—frustrating as well.
-But we take good care of ourselves every day. What we always ask is: What shall we eat today? What for lunch? What for dinner?
-So, I thought, why not create a mini-program? Great idea!
-Let’s get started right away!!
-And so, the journey of creating mini-programs began.
-Sure enough, a fool like me needs such innovative ideas to bring his strong hands-on skills into play.
-## What does this project entail?
-Note: These are just personal projects 而已. They don’t have any universal applicability. They’re merely my own thoughts and notes, along with some small tips or things I’d like to remember.
-It has no real value; it’s only valid for me personally, hahaha.
-Next is my first topic: Images storage
-I wanted to add a sliding image feature to my WeChat mini-program. However, the image was too large in size, causing the upload to fail. I consulted with AI, and it suggested that I use GitHub in conjunction with jsDelivr to solve this issue. So, I need to upload some images to GitHub for easy access later.
-## How to upload images to GitHub?
-1. Create a repository on GitHub.
-2. Upload using git commands:
-(1) Initialize the local repository: git init
-(2) Add the files to the staging area: git add .
-(3) When submitting files, include a note in the commit message: git commit -m "xxx"
-(4) Link the local repository with the remote repository: git remote add origin https://git.com/username/repo_name.git
-(5)将文件推送到仓库中：git push -u origin 默认的主分支
+# “今天吃什么？”小程序日志
+这是一个为了解决我跟我的朋友们的每日三餐到底应该吃什么的小程序设计日志。  
+## 为什么要做这个小程序呢？
+故事开始于2026年的暑假。。。    
+找不到实习啊找不到实习！好烦！烦得很！    
+一个懒惰的小姑娘因此变成了一个无头脑的呆子，每天对着招聘软件疯狂的投简历，甚至投到了招聘软件的投简历的限制次数。  
+每天沉浸在投简历、面试，投简历、面试这样的生活中。  
+投简历这件事开始于5月份，一直投简历到今天，总共面试了3次，都以失败告终了。他们不属于我的职业规划，我对他们都很顾虑，接了offer很焦虑，不接offer也很焦虑。    
+其实我根本就不知道自己到底适合什么岗位，我不确定自己现在的想法到底是不是对的，我要不要继续坚持下去呢？还是重新回到算是舒适区的舒适区呢？  
+可能我本身就是一个不爱学习的人吧，但是，谁会爱学习呢。  
+于是我开始整天萎靡不振，关键还很倒霉。  
+omg！！  
+果然人还是不能太傻太天真，有些规矩就是死的，是不可以违反的，有些事情是要灵活处理的，然后我就开始了为期一个月的、煎熬的倒霉生活。  
+还好我有一个小机灵鬼——嘿嘿，阿蓓蓓。  
+这个煎熬的生活因为她的存在变得好起来。  
+时间长了，我们的宿舍生活也会变得很枯燥，她在写论文，煎熬的很啊，我在找工作，挫败的很。  
+但是我们每天都把自己照顾的很好嘞，每天都会讲的话就是：今天我们吃什么呢？午饭吃什么呢？晚饭吃什么呢？  
+于是，想到了要不做一个小程序吧！好主意！  
+立马开始行动！！  
+于是，制作小程序的生活开始了。  
+果然，一个呆子就需要这样的创新点，发挥强大的动手能力。  
+## 这个项目有什么内容呢？
+注意：个人项目啊个人项目，没有什么普适性，就本人的碎碎念啊还有一些什么想要记录的小技巧啊或者小注意事项之类的。  
+没有什么含金量，仅对本人有效哈哈哈哈。  
+接下来是我的第一个内容：images存储  
+我想在微信小程序开发平台里面设置一个滑动图片，但是由于图片内存太大了，上传失败了。于是我去找了ai，ai告诉我可以使用GitHub和jsDelivr联合使用才可以，所以需要在GitHub里面上传一些照片，方便取用。  
+## 如何将图片上传到GitHub上呢？
+1.在GitHub上面创建一个仓库  
+2.使用git命令进行上传：  
+（1）初始化本地仓库：git init  
+（2）将文件添加到暂存区：git add .  
+（3）将文件打包写备注：git commit -m "xxx"  
+（4）把本地仓库和远程仓库连接在一起：git remote add origin https://github.com/用户名/仓库名.git  
+（5）将文件上传至github仓库中：git push -u origin 仓库主分支名  
+注意：如果使用 git bash打开的文件根目录是要上传的文件夹，那么暂存时使用git add .，但是如果是使用git bush打开包含要上传的文件夹的上一级文件夹，那么暂存时使用git add 上级文件夹/要上传的文件夹/  
+当已经把文件打包好，但是还没有push到github上面的时候，要撤销提交记录：git reset --soft HEAD~1  
+将文件从暂存区踢出去：git reset HEAD .  
+如果在上传文件夹之前对github里面的文件进行了修改，那么上传该文件夹前需要将本地代码和远程仓库合并一下再上传：git pull --rebase origin 主分支名  
